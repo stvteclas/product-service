@@ -1,6 +1,6 @@
-package com.programmingtechie.productservice.repository;
+package com.programmingtechie.repository;
 
-import com.programmingtechie.productservice.model.Product;
+import com.programmingtechie.model.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ProductRepository extends MongoRepository <Product, String> {
